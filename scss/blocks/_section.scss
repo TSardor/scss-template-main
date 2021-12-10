@@ -1,0 +1,105 @@
+.section {
+    position: relative;
+
+    &__slogan {
+        display: flex;
+        margin: 0 auto;
+        max-width: 1275px;
+        width: 100%;
+        margin-top: 152px;
+    }
+
+    &__img {
+        position: absolute;
+        transform: translateX(66px);
+        top: -257px;
+    }
+
+    &__first {
+        margin-left: 60px;
+    }
+
+    &__title {
+        width: 546px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 72px;
+        line-height: 72px;
+        font-family: 'DM Serif Display';
+        letter-spacing: -0.553846px;
+        color: #36536B;
+    }
+
+    &__format{
+        margin-top: 41px;
+        display: flex;
+    }
+
+    &__input {
+        margin-top: 41px;
+        border: none;
+        padding: 15px 27px;
+        width: 425px;
+        font-weight: bold;
+        background: #FBFCFE;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+        opacity: 0.7;
+        font-family: 'Public Sans';
+    }
+
+    &__btn {
+        position: absolute;
+        transform: translateX(-150px);
+        padding: 16px 27px;
+        bottom: 33px;
+        border: none;
+        background: #BA4270;
+        border-radius: 24px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: -0.115385px;
+        color: #FBFCFE;
+
+        &:active {
+            background: #BA4270;
+            opacity: 0.5;
+            color: #FBFCFE;
+        }
+    }
+
+    &__text {
+        margin-top: 16px;
+        display: flex;
+        gap: 5px;
+        margin-left: 20px;
+    }
+
+    &__texts {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        font-family: 'Public Sans';
+        color: #6C8294;
+    }
+
+    &__texts-second {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+        font-family: 'Public Sans';
+        color: #6C8294;
+    }
+
+
+
+
+
+
+
+
+}

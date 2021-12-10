@@ -1,0 +1,33 @@
+.hero {
+    padding-top: 150px;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__second {
+        margin-top: -10px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 56px;
+        font-family: 'DM Serif Display';
+        letter-spacing: -0.369231px;
+        color: #36536B;
+    }
+
+    &__text {
+        margin-bottom: 44px;
+        width: 385px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 28px;
+        color: #6C8294;
+    }
+}

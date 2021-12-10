@@ -1,0 +1,60 @@
+.content {
+    &__container {
+        display: flex;
+        text-align: center;
+        gap: 35px;
+    }
+
+    &__title {
+        margin-top: 32px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        font-family: 'Public Sans';
+        text-align: center;
+        letter-spacing: -0.138462px;
+        color: #36536B;
+    }
+
+    &__first {
+        margin-top: 16px;
+        width: 350px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        font-family: 'Public Sans';
+        text-align: center;
+        letter-spacing: -0.115385px;
+        color: #6C8294;
+    }
+
+    &__second {
+        margin-top: 16px;
+        width: 350px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        font-family: 'Public Sans';
+        text-align: center;
+        letter-spacing: -0.115385px;
+        color: #6C8294;
+    }
+
+    &__third {
+        margin-top: 16px;
+        width: 350px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        font-family: 'Public Sans';
+        text-align: center;
+        letter-spacing: -0.115385px;
+        color: #6C8294;
+    }
+
+
+}

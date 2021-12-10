@@ -1,0 +1,77 @@
+.footer {
+    background: #1B262F;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    &__first {
+        margin-right: auto;
+    }
+
+    &____img-logo {
+        display: inline-block;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 550px;
+        gap: 40px;
+    }
+
+    &__links {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FBFCFE;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        font-family: 'Public Sans';
+        transition: 40ms ease;
+
+        &:active {
+            transition: 40ms ease;
+            color: #FBFCFE;
+            opacity: 0.9;
+            font-weight: bold;
+        }
+    }
+
+    &__icons {
+        display: flex;
+        gap: 24px;
+    }
+
+    .fa-facebook-square {
+        color: white;
+    
+        
+        &:active{
+            color: #DA6D97;
+        }
+    }
+
+    .fa-twitter {
+        color: white;
+    
+        
+        &:active{
+            color: #DA6D97;
+        }
+    }
+
+    .fa-linkedin-in {
+        color: white;
+    
+        
+        &:active{
+            color: #DA6D97;
+        }
+    }
+}
